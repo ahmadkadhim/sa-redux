@@ -1,0 +1,24 @@
+
+
+body {
+	background: #fff;
+	color: #000;
+	font-family: "Gotham-Medium", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Gotham-Black", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	color: #000;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+label {
+	color: #ddd;
+}
+
+a {
+	color: #000;
+}

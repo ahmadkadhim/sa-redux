@@ -1,0 +1,66 @@
+body {
+  font-size: 100%; }
+
+.float-right {
+  float: right; }
+
+span.spacer {
+  font-size: 3em;
+  line-height: 4.0; }
+
+.clear {
+  clear: both; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 4.5em;
+  line-height: .9em;
+  margin: 0 0 1.25rem 0; }
+
+.blocks {
+  background: #fff;
+  display: block;
+  width: 100%;
+  float: left;
+  transition: all .1s ease-in; }
+
+.no-link-block {
+  display: block;
+  width: 100%;
+  float: left;
+  padding: 1rem;
+  border: 1rem solid #000; }
+  .no-link-block h1, .no-link-block h2, .no-link-block h3, .no-link-block h4, .no-link-block h5, .no-link-block h6, .no-link-block p, .no-link-block a {
+    color: #fff; }
+
+li.blocks {
+  list-style: none;
+  width: 16rem;
+  border: 1rem solid #000;
+  margin: 0 .5rem .5rem 0; }
+
+.blocks a {
+  height: 100%;
+  display: block;
+  padding: 1rem; }
+
+.blocks:hover {
+  background: #000; }
+  .blocks:hover h1, .blocks:hover h2, .blocks:hover h3, .blocks:hover h4, .blocks:hover h5, .blocks:hover h6, .blocks:hover p, .blocks:hover a {
+    color: #fff; }
+
+.header-links-small {
+  text-transform: capitalize;
+  display: inline-block;
+  font-family: "Gotham-Medium";
+  font-weight: normal; }
+
+.header-links-small a {
+  display: block;
+  padding: 1rem; }
+
+.header-links-small:hover a {
+  background: #000;
+  color: #fff; }

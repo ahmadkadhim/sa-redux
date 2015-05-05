@@ -1,0 +1,354 @@
+
+// // // Home Page Content
+
+
+// // HEADER
+
+	header.content-pages {
+		background-color: #fff;
+		padding: 3rem 0;
+	}
+
+	header.home {
+		padding: 12.5rem 0;
+	}
+
+	nav {
+		margin-left: -.9rem; // adjust margin-left to be .1 less than padding
+								// to align it better with the logo
+
+		a:hover {
+				background: #000;
+				color: #fff;
+		}
+	}
+
+
+// // STATEMENT SECTION
+
+	section.statement {
+		background-color: #000;
+		padding: 2.50rem 0 1.25rem 0;
+	}
+
+	h2.statement {
+		color: #fff;
+	}
+
+	#statement-line-2, #statement-line-4 {
+		margin-bottom: 1.5rem;
+	}
+
+
+// // BASIC INFO SECTION
+
+	section.basic-info {
+		background: #000 url('brick_wall_edited.jpg') no-repeat 50% 50%;
+		background-size: cover;
+		background-attachment: fixed;
+		box-shadow: inset 0 -24px 12px -8px rgba(0,0,0,.50),
+					inset 0 24px 12px -8px rgba(0,0,0,.25);
+
+		#basic-info-wrap {
+			margin: 4rem auto;
+		}
+
+		#basic-info-wrap > .row {
+			margin: 0;
+		}
+
+		#offices, #wholesale {
+
+			// TODO: cut the box-link styles into a mixin
+
+			padding: 1rem;
+			background: #fff;
+			// border-radius: .2rem;
+			border: .75rem solid #000;
+			display: block;
+			margin-bottom: 1.5rem;
+			box-shadow: 0 .3rem 0 0 #000;
+			transition: all .1s ease-in;
+
+			h1, h2, h3, h4, h5, h6 {
+				margin-top: 0;
+				margin-bottom: .2em;
+			}
+
+			p {
+				margin: 0;
+			}
+		}
+		
+		#offices:hover, #wholesale:hover {
+			background: #000;
+			
+			h3, p {
+				color: #fff;
+			}
+		}
+
+
+		#location-hours-info-large, #location-hours-info-small {
+			background: #fff;
+			border: .75rem solid #000;
+			padding: 0;
+			box-shadow: 0 .3rem 0 0 #000;
+
+			span {
+				white-space: normal;
+			}
+
+			.blocks {
+				padding: 1rem;
+			}
+
+			.locations {
+				margin-top: 0;
+			}
+		}
+
+		#location-hours-info-large {
+			// padding: .3rem;
+		}
+
+		#location-hours-info-small {
+			margin-bottom: 1.5rem;
+
+			.blocks {
+				width: 50%;
+				padding: 1rem;
+			}
+
+		}
+	}
+
+
+
+
+// // COFFEES + MENUS SECTION
+
+	section.coffees {
+		background-color: #fff;
+		padding: 3rem 0;
+
+		// h2 {
+		// 	margin-top: 0;
+		// }
+
+		.coffee-names {
+			text-transform: none;
+			font-size: 4.5em;
+			margin-bottom: .2em;
+		}
+	}
+
+	.coffee-names {
+		text-transform: none;
+		font-size: 4.5em;
+		margin-bottom: .2em;
+}
+
+	section.menus {
+		padding-bottom: 3rem;
+	}
+
+// // PHILOSOPHY SECTION
+
+	section.philosophy {
+		background: #000 url('wood.jpg') 50% 50% no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		padding: 3rem 0;
+
+		li {
+			display: block;
+			margin-bottom: .2rem;
+		}
+
+		h3 {
+			float: left;
+			margin: 0 1.4rem 0 0;
+		}
+
+		p {
+			font-family: "Gotham-Light";
+			font-size: 1.3em;
+			text-align: justify;
+			text-shadow: 1px 1px 1px #000;
+		}
+
+		h3, p {
+			line-height: 35px;
+		}
+
+		h1, h2, h3, h4, h5, h6, p, a {
+			color: #fff;
+		}
+	}
+
+
+// // FOOTER
+
+	footer {
+		position: relative;
+		padding: 2rem 0;
+
+		.contacts {
+			padding-top: 1rem;
+		}
+
+		.links {
+			text-align: left;
+			margin-left: -1rem;
+			float: none;
+
+		}
+
+		.social {
+			
+		}
+
+		#twitter, #facebook, #instagram {
+			// transition: all .1s ease-in;
+			display: inline-block;
+			height: 90px;
+			width: 90px;
+		}
+
+		#twitter {
+			background: url('twitter.png') no-repeat 50% 50%;
+		}
+
+		#twitter:hover {
+			background: #000 url('twitter-black.png') no-repeat 50% 50%;
+		}
+
+		#facebook {
+			background: url('facebook.png') no-repeat 50% 50%;
+		}
+
+		#facebook:hover {
+			background: #000 url('facebook-black.png') no-repeat 50% 50%;
+		}
+
+		#instagram {
+			background: url('instagram.png') no-repeat 50% 50%;
+		}
+
+		#instagram:hover {
+			background: #000 url('instagram-black.png') no-repeat 50% 50%;
+		}
+	}
+
+
+
+
+// // // Other Pages
+
+
+// // Menus, Coffees
+
+	section.content-pages {
+		padding: 3rem 0;
+		background: #000;
+
+		h1, h2, h3, h4, h5, h6, p, a {
+			color: #fff;
+		}
+	}
+
+
+
+
+
+// // // MEDIA QUERIES
+
+	@media all and (max-width: 64rem) {
+		.location-blocks {
+				h4.locations {
+					font-size: 1.3em;
+				}
+		}
+
+	}
+
+
+	@media all and (max-width: 41rem) {
+		header {
+			padding: 10rem 0;
+		}
+
+		h1 {
+			font-size: 3.2em;
+		}
+
+		nav, footer .links {
+			margin-left: -.75rem;
+		}
+
+		section.basic-info {
+			#location-hours-info-small {
+				.blocks {
+					width: 100%;
+				}
+			}
+		}
+
+		section.philosophy p {
+			text-align: left;
+		}
+
+		.header-links-small {
+			font-size: 1.2em;
+		}
+
+		.header-links-small a {
+			padding: .40rem .80rem;
+		}
+
+	}
+
+	@media all and (max-width: 30rem) {
+		h1 {
+			font-size: 2.2em;
+		}
+		nav, footer .links {
+			margin-left: -.45rem;
+		}
+
+		.header-links-small {
+			font-size: 1em;
+		}
+
+		.header-links-small a {
+			padding: .25rem .50rem;
+		}
+
+		section.philosophy {
+			h3 {
+				float: none;
+				margin-bottom: .1rem;
+			}
+			p {
+				font-size: 1em;
+			}
+		}
+	}
+
+	@media all and (max-width: 22rem) {
+		h1 {
+			font-size: 1.6em;
+		}
+
+		nav .header-links-small {font-size: .9em;}
+
+	}
+
+	// @media all and (max-width: 20rem) {
+	// 	h1 {
+	// 		font-size: 1.5em;
+	// 		text-overflow: hidden;
+	// 	}
+
+	// }

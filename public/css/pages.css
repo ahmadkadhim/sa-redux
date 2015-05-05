@@ -1,0 +1,183 @@
+header.content-pages {
+  background-color: #fff;
+  padding: 3rem 0; }
+
+header.home {
+  padding: 12.5rem 0; }
+
+nav {
+  margin-left: -0.9rem; }
+  nav a:hover {
+    background: #000;
+    color: #fff; }
+
+section.statement {
+  background-color: #000;
+  padding: 2.50rem 0 1.25rem 0; }
+
+h2.statement {
+  color: #fff; }
+
+#statement-line-2, #statement-line-4 {
+  margin-bottom: 1.5rem; }
+
+section.basic-info {
+  background: black url("../img/brick_wall_edited.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 -24px 12px -8px rgba(0, 0, 0, 0.5), inset 0 24px 12px -8px rgba(0, 0, 0, 0.25); }
+  section.basic-info #basic-info-wrap {
+    margin: 4rem auto; }
+  section.basic-info #basic-info-wrap > .row {
+    margin: 0; }
+  section.basic-info #offices, section.basic-info #wholesale {
+    padding: 1rem;
+    background: #fff;
+    border: .75rem solid #000;
+    display: block;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 .3rem 0 0 #000;
+    transition: all .1s ease-in; }
+    section.basic-info #offices h1, section.basic-info #offices h2, section.basic-info #offices h3, section.basic-info #offices h4, section.basic-info #offices h5, section.basic-info #offices h6, section.basic-info #wholesale h1, section.basic-info #wholesale h2, section.basic-info #wholesale h3, section.basic-info #wholesale h4, section.basic-info #wholesale h5, section.basic-info #wholesale h6 {
+      margin-top: 0;
+      margin-bottom: .2em; }
+    section.basic-info #offices p, section.basic-info #wholesale p {
+      margin: 0; }
+  section.basic-info #offices:hover, section.basic-info #wholesale:hover {
+    background: #000; }
+    section.basic-info #offices:hover h3, section.basic-info #offices:hover p, section.basic-info #wholesale:hover h3, section.basic-info #wholesale:hover p {
+      color: #fff; }
+  section.basic-info #location-hours-info-large, section.basic-info #location-hours-info-small {
+    background: #fff;
+    border: .75rem solid #000;
+    padding: 0;
+    box-shadow: 0 .3rem 0 0 #000; }
+    section.basic-info #location-hours-info-large span, section.basic-info #location-hours-info-small span {
+      white-space: normal; }
+    section.basic-info #location-hours-info-large .blocks, section.basic-info #location-hours-info-small .blocks {
+      padding: 1rem; }
+    section.basic-info #location-hours-info-large .locations, section.basic-info #location-hours-info-small .locations {
+      margin-top: 0; }
+  section.basic-info #location-hours-info-small {
+    margin-bottom: 1.5rem; }
+    section.basic-info #location-hours-info-small .blocks {
+      width: 50%;
+      padding: 1rem; }
+
+section.coffees {
+  background-color: #fff;
+  padding: 3rem 0; }
+  section.coffees .coffee-names {
+    text-transform: none;
+    font-size: 4.5em;
+    margin-bottom: .2em; }
+
+.coffee-names {
+  text-transform: none;
+  font-size: 4.5em;
+  margin-bottom: .2em; }
+
+section.menus {
+  padding-bottom: 3rem; }
+
+section.philosophy {
+  background: black url("../img/wood.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 3rem 0; }
+  section.philosophy li {
+    display: block;
+    margin-bottom: .2rem; }
+  section.philosophy h3 {
+    float: left;
+    margin: 0 1.4rem 0 0; }
+  section.philosophy p {
+    font-family: "Gotham-Light";
+    font-size: 1.3em;
+    text-align: justify;
+    text-shadow: 1px 1px 1px #000; }
+  section.philosophy h3, section.philosophy p {
+    line-height: 35px; }
+  section.philosophy h1, section.philosophy h2, section.philosophy h3, section.philosophy h4, section.philosophy h5, section.philosophy h6, section.philosophy p, section.philosophy a {
+    color: #fff; }
+
+footer {
+  position: relative;
+  padding: 2rem 0; }
+  footer .contacts {
+    padding-top: 1rem; }
+  footer .links {
+    text-align: left;
+    margin-left: -1rem;
+    float: none; }
+  footer #twitter, footer #facebook, footer #instagram {
+    display: inline-block;
+    height: 90px;
+    width: 90px; }
+  footer #twitter {
+    background: url("../img/twitter.png") no-repeat 50% 50%; }
+  footer #twitter:hover {
+    background: black url("../img/twitter-black.png") no-repeat 50% 50%; }
+  footer #facebook {
+    background: url("../img/facebook.png") no-repeat 50% 50%; }
+  footer #facebook:hover {
+    background: black url("../img/facebook-black.png") no-repeat 50% 50%; }
+  footer #instagram {
+    background: url("../img/instagram.png") no-repeat 50% 50%; }
+  footer #instagram:hover {
+    background: black url("../img/instagram-black.png") no-repeat 50% 50%; }
+
+section.content-pages {
+  padding: 3rem 0;
+  background: #000; }
+  section.content-pages h1, section.content-pages h2, section.content-pages h3, section.content-pages h4, section.content-pages h5, section.content-pages h6, section.content-pages p, section.content-pages a {
+    color: #fff; }
+
+@media all and (max-width: 64rem) {
+  .location-blocks h4.locations {
+    font-size: 1.3em; } }
+@media all and (max-width: 41rem) {
+  header {
+    padding: 10rem 0; }
+
+  h1 {
+    font-size: 3.2em; }
+
+  nav, footer .links {
+    margin-left: -0.75rem; }
+
+  section.basic-info #location-hours-info-small .blocks {
+    width: 100%; }
+
+  section.philosophy p {
+    text-align: left; }
+
+  .header-links-small {
+    font-size: 1.2em; }
+
+  .header-links-small a {
+    padding: .40rem .80rem; } }
+@media all and (max-width: 30rem) {
+  h1 {
+    font-size: 2.2em; }
+
+  nav, footer .links {
+    margin-left: -0.45rem; }
+
+  .header-links-small {
+    font-size: 1em; }
+
+  .header-links-small a {
+    padding: .25rem .50rem; }
+
+  section.philosophy h3 {
+    float: none;
+    margin-bottom: .1rem; }
+  section.philosophy p {
+    font-size: 1em; } }
+@media all and (max-width: 22rem) {
+  h1 {
+    font-size: 1.6em; }
+
+  nav .header-links-small {
+    font-size: .9em; } }
