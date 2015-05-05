@@ -43,11 +43,11 @@ section.basic-info {
       margin-bottom: .2em; }
     section.basic-info #offices p, section.basic-info #wholesale p {
       margin: 0; }
-  section.basic-info #offices:hover, section.basic-info #wholesale:hover {
+/*  section.basic-info #offices:hover, section.basic-info #wholesale:hover {
     background: #000; }
     section.basic-info #offices:hover h3, section.basic-info #offices:hover p, section.basic-info #wholesale:hover h3, section.basic-info #wholesale:hover p {
       color: #fff; }
-  section.basic-info #location-hours-info-large, section.basic-info #location-hours-info-small {
+*/  section.basic-info #location-hours-info-large, section.basic-info #location-hours-info-small {
     background: #fff;
     border: .75rem solid #000;
     padding: 0;

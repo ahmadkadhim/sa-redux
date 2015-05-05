@@ -46,9 +46,9 @@ li.blocks {
   display: block;
   padding: 1rem; }
 
-.blocks:hover {
+.coffees .blocks {
   background: #000; }
-  .blocks:hover h1, .blocks:hover h2, .blocks:hover h3, .blocks:hover h4, .blocks:hover h5, .blocks:hover h6, .blocks:hover p, .blocks:hover a {
+  .coffees .blocks h1, .coffees .blocks h2, .coffees .blocks h3, .coffees .blocks h4, .coffees .blocks h5, .coffees .blocks h6, .coffees .blocks p, .coffees .blocks a {
     color: #fff; }
 
 .header-links-small {
